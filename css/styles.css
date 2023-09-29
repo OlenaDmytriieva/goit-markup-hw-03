@@ -344,8 +344,9 @@ img {
 
 .footer-logo {
         margin-bottom: 16px;
+        display: inline-block;
 }
 
-.link {
-        display: inline-block;         
+.link {  
+                      
 }
