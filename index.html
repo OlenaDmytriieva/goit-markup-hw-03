@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-        integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,9 +53,9 @@
         </section>
 
         <section class="section section-about">
-
-            <h2 class="section-about-title visually-hidden">Future title</h2>
             <div class="container about">
+                <h2 class="section-about-title visually-hidden">Future title</h2>
+
                 <ul class="section-about-list">
                     <li class="section-about-item">
                         <h3 class="section-about-subtitle">Strategy</h3>
@@ -91,23 +91,31 @@
                 <ul class="section-team-list">
                     <li class="section-team-item">
                         <img class="section-team-image" src="./images/mark.jpg" alt="Mark's photo" width="264">
-                        <h3 class="section-team-subtitle">Mark Guerrero</h3>
-                        <p class="section-team-text">Product Designer</p>
+                        <div class="staff-card">
+                            <h3 class="section-team-subtitle">Mark Guerrero</h3>
+                            <p class="section-team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="section-team-item">
                         <img class="section-team-image" src="./images/tom.jpg" alt="Tom's photo" width="264">
-                        <h3 class="section-team-subtitle">Tom Ford</h3>
-                        <p class="section-team-text">Frontend Developer</p>
+                        <div class="staff-card">
+                            <h3 class="section-team-subtitle">Tom Ford</h3>
+                            <p class="section-team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="section-team-item">
                         <img class="section-team-image" src="./images/camila.jpg" alt="Camila's photo" width="264">
-                        <h3 class="section-team-subtitle">Camila Garcia</h3>
-                        <p class="section-team-text">Marketing</p>
+                        <div class="staff-card">
+                            <h3 class="section-team-subtitle">Camila Garcia</h3>
+                            <p class="section-team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="section-team-item">
                         <img class="section-team-image" src="./images/daniel.jpg" alt="Daniel's photo" width="264">
-                        <h3 class="section-team-subtitle">Daniel Wilson</h3>
-                        <p class="section-team-text">UI Designer</p>
+                        <div class="staff-card">
+                            <h3 class="section-team-subtitle">Daniel Wilson</h3>
+                            <p class="section-team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -146,7 +154,7 @@
                     </li>
                     <li class="section-portfolio-item">
 
-                        <img class="section-portfolio-image" src="./images/taxi.jpg" alt="Driver's hands" width=>
+                        <img class="section-portfolio-image" src="./images/taxi.jpg" alt="Driver's hands">
                         <div class="card-content">
                             <h3 class="section-portfolio-subtitle">Taxi Service</h3>
                             <p class="section-portfolio-text">Marketing</p>

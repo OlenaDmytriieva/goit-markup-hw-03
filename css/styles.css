@@ -63,11 +63,13 @@ img {
 
 .navigation {
         display: flex;
+        align-items: center;
 }
 
 .menu {
         display: flex;
         justify-content: space-between;
+        padding: 24px 0;
 }
 
 
@@ -131,13 +133,13 @@ img {
         line-height: 1.07;
         letter-spacing: 0.02em;
         display: flex;
-        width: 496px;
-        padding-top: 68px;
         margin: 0 auto 48px;
+        max-width: 496px;
 }
 
 .section-page {
         background: #2E2F42;
+        padding: 188px 0;
 }
 
 .button-order {
@@ -151,8 +153,9 @@ img {
         border: none;
         cursor: pointer;
         padding: 16px 32px;
-        margin: 0 auto 68px;
+        margin: 0 auto;
         display: block;
+        min-width: 169px
         
 }
 
@@ -246,7 +249,6 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -255,7 +257,10 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-bottom: 32px;
+}
+
+.staff-card {
+        padding: 32px 0;
 }
 
 .section-portfolio {}
@@ -293,8 +298,7 @@ img {
         border-right: 1px solid #E7E9FC;
         border-bottom: 1px solid #E7E9FC;
         border-left: 1px solid #E7E9FC;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding: 32px 16px;
         
 }
 
@@ -311,16 +315,12 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    padding-right: 16px;
-    padding-left: 16px;
 }
 
 .section-portfolio-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-right: 16px;
-        padding-left: 16px;
 }
 
 .footer {
@@ -339,7 +339,10 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-top: 16px;
         width: 264px;
 }
 
+.footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+}
