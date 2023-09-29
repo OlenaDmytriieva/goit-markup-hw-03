@@ -36,8 +36,6 @@ img {
 }
 
 .header {
-        padding-top: 24px;
-        padding-bottom: 24px;
         border-bottom: 1px solid #E7E9FC;
 }
 
@@ -64,19 +62,22 @@ img {
 .navigation {
         display: flex;
         align-items: center;
+       
 }
 
 .menu {
         display: flex;
         justify-content: space-between;
         padding: 24px 0;
+        align-items: center;
 }
 
 
 .navigation-list {
         display: flex;
         gap: 40px;
-        margin-left: 76px;     
+        margin-left: 76px;
+        
 }
 
 .navigation-list-item
@@ -102,7 +103,6 @@ img {
 .address-list {
         display: flex;
         gap: 40px;
-        flex-direction: row;
         margin-left: 0;
 }
 
@@ -343,6 +343,9 @@ img {
 }
 
 .footer-logo {
-        display: inline-block;
         margin-bottom: 16px;
+}
+
+.link {
+        display: inline-block;         
 }
