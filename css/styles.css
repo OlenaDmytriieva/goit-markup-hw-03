@@ -68,7 +68,7 @@ img {
 .menu {
         display: flex;
         justify-content: space-between;
-        
+        padding: 24px 0;
         align-items: center;
 }
 
@@ -76,7 +76,7 @@ img {
 .navigation-list {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        
         
 }
 
