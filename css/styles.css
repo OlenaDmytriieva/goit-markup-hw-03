@@ -30,8 +30,7 @@ img {
 
 .container {
         width: 1158px;
-        padding-left: 15px; 
-        padding-right: 15px;
+        padding: 0 15px;
         margin: 0 auto;
 }
 
@@ -63,12 +62,13 @@ img {
         display: flex;
         align-items: center;
        
+       
 }
 
 .menu {
         display: flex;
         justify-content: space-between;
-        padding: 24px 0;
+        
         align-items: center;
 }
 
@@ -76,7 +76,7 @@ img {
 .navigation-list {
         display: flex;
         gap: 40px;
-        margin-left: 76px;
+        padding: 24px 0;
         
 }
 
@@ -345,8 +345,4 @@ img {
 .footer-logo {
         margin-bottom: 16px;
         display: inline-block;
-}
-
-.link {  
-                      
 }
